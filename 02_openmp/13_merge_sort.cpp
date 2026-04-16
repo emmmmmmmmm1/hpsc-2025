@@ -2,7 +2,8 @@
 #include <cstdlib>
 #include <vector>
 
-void merge(std::vector<int>& vec, int begin, int mid, int end) {
+void merge(std::vector<int>& vec, int begin, int mid, int end) 
+{
   std::vector<int> tmp(end-begin+1);
   int left = begin;
   int right = mid+1;
